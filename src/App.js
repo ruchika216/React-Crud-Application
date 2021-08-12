@@ -4,6 +4,7 @@ import { makeStyles, CssBaseline, createMuiTheme, ThemeProvider } from '@materia
 import Header from "./components/Header";
 import VendorData from './pages/VendorData';
 
+
 const theme = createMuiTheme({
   overrides: {
     MuiAppBar: {
@@ -31,6 +32,7 @@ function App() {
   const classes = useStyles();
 
   return (
+
     <ThemeProvider theme={theme}>
       <SideBar />
       <div className={classes.appMain}>
@@ -39,6 +41,7 @@ function App() {
           <VendorData />
         </div>
         <CssBaseline />
+
       </div>
     </ThemeProvider>
 
