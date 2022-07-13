@@ -55,7 +55,7 @@ render() {
 
                 </div>
                 <div className={classes.title}>
-                    <h1>Software Hub Solutions</h1>
+                    <h1>Ruchika Solutions</h1>
                     <h5>Your Vision Our Future</h5>
                 </div>
                 <Box bgcolor="text.secondary" color="white">

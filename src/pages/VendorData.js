@@ -108,7 +108,7 @@ export default function VendorData() {
     return (
         <>
             <PageHeader
-                title="Software Hub Solutions"
+                title="Ruchika Solutions"
                 subTitle="Your Vision Our Future"
                 icon={<ImportantDevicesIcon fontSize="large" />}
             />
